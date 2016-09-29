@@ -7,9 +7,9 @@
 
 **Name of your app** is a Ruby on Rails blog application.
 
-Submitted by: **Your Name Here**
+Submitted by: **Lam Do**
 
-Time spent: **X** hours spent in total
+Time spent: **20++** hours spent in total
 
 URL: **Insert your Heroku URL here**
 
@@ -46,7 +46,7 @@ Here's a walkthrough of implemented user stories:
 > `![Video Walkthrough](walkthrough.gif)` 
 > 
 
-![Video Walkthrough](/path/to/your/gif/file)
+![myBlog1.gif](/path/to/your/gif/file)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
