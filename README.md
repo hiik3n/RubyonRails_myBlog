@@ -1,7 +1,7 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *MyBlog*
 
 
-**Name of your app** is a Ruby on Rails blog application.
+**MyBlog** is a Ruby on Rails blog application.
 
 Submitted by: **Lam Do**
 
