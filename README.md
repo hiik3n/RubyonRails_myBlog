@@ -7,7 +7,7 @@ Submitted by: **Lam Do**
 
 Time spent: **20++** hours spent in total
 
-URL: **https://fierce-harbor-81008.herokuapp.com**
+URL: **https://fierce-harbor-81008.herokuapp.com/articles**
 
 ## User Stories
 
