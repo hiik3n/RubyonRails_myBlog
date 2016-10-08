@@ -1,13 +1,17 @@
-<p id="notice"><%= notice %></p>
 <div class="container">
-  <h1>MyBlog</h1>
-  <h2>This is my first WebApp</h2>
+  <h1>The Lam, Do</h1>
+  
+           <p class="card-text">
+             <%= @markdown.render('![image] (https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xal1/v/t1.0-1/p160x160/13690716_10207844709970801_3809301613395853722_n.jpg?oh=6e769e6b497d8218311c421cb1cc24d1&oe=58AD0B0E&__gda__=1483199164_f5c995d1851a923eb3fab83ab6e91ba1)
+Hi, my name is **Lam**, I am currently embedded software engineer.
+This is my first web app by Ruby on Rail').html_safe %>
+           </p>
+        
   <%= form_tag(articles_path, :method => "get", id: "search-form") do %>
             <%= text_field_tag :search, params[:search]%>
             <%= submit_tag "Search", :name => nil %>
             <% end %>
-  
-  
+
   <div class="row">
   <div class="col-sm-12">
      <% @articles.each do |article| %> 
