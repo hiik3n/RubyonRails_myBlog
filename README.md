@@ -7,7 +7,7 @@ Submitted by: **Lam Do**
 
 Time spent: **30** hours spent in total
 
-URL: **hhttps://nekblog.herokuapp.com/articles**
+URL: **https://nekblog.herokuapp.com/articles**
 
 ## User Stories
 
