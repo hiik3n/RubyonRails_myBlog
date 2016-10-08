@@ -23,7 +23,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [x] There is a "navbar" that is responsive to window size similar to http://v4-alpha.getbootstrap.com/examples/navbar/. 
-* [ ] User can see how many views a post has. 
+* [x] User can see how many views a post has. 
 * [ ] User can leave a comment on a post.
 * [ ] User can add "tags" to a post, and filter posts by tag. 
 
@@ -31,7 +31,6 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
 - [x] Search function so it don't care about uppercase or lowercase
 ## Video Walkthrough 
 
