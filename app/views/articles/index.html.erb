@@ -1,4 +1,14 @@
 <div class="container">
+<nav class="navbar navbar-light bg-faded">
+  <a class="navbar-brand" href="#">Home</a>
+
+  <form class="form-inline pull-xs-right">
+  <%= form_tag(articles_path, :method => "get", id: "search-form") do %>
+            <%= text_field_tag :search, params[:search]%>
+            <%= submit_tag "Search", :name => nil %>
+            <% end %>
+  </form>
+</nav>
   <h1>The Lam, Do</h1>
   
            <p class="card-text">
@@ -7,11 +17,6 @@ Hi, my name is **Lam**, I am currently embedded software engineer.
 This is my first web app by Ruby on Rail').html_safe %>
            </p>
         
-  <%= form_tag(articles_path, :method => "get", id: "search-form") do %>
-            <%= text_field_tag :search, params[:search]%>
-            <%= submit_tag "Search", :name => nil %>
-            <% end %>
-
   <div class="row">
   <div class="col-sm-12">
      <% @articles.each do |article| %> 

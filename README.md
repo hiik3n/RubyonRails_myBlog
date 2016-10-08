@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
-
+- [x] Search function so it don't care about uppercase or lowercase
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
